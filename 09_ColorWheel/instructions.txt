@@ -1,0 +1,33 @@
+Color Wheel Quiz!
+
+
+Your task is to create a color wheel using the html elements provided.
+Use color-wheel.png as reference.
+
+
+HINTS
+=====
+ - Make the wrap a square with a fixed width and height
+ - Each color swatch should be 100px by 100px
+ - Use absolute positioning to place the color swatches
+ - The parent of each absolutely position element must have a relative position
+
+
+Code to Create a Circular Element:
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+
+Colors:
+    red = rgb(255, 0, 0)
+    red-orange = rgb(255, 92, 34)
+    orange = rgb(255, 128, 0)
+    yellow-orange = rgb(255, 202, 21)
+    yellow = rgb(255, 255, 0)
+    yellow-green = rgb(139, 205, 50)
+    green = rgb(0, 255, 0)
+    blue-green = rgb(24, 152, 160)
+    blue = rgb(0, 0, 255)
+    blue-purple = rgb(138, 43, 226)
+    purple = rgb(255, 0, 255)
+    red-purple = rgb(177, 0, 128)

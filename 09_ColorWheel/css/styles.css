@@ -1,0 +1,31 @@
+/* Color Wheel Quiz! */
+
+
+* {
+    box-sizing: border-box;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+#wrap {
+
+}
+#wrap div {
+
+}
+div#circle-ref {
+    width: 420px;
+    height: 420px;
+    top: calc(55% - 210px);
+    right: calc(50% - 210px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: absolute;
+    border: 1px solid black;
+}
